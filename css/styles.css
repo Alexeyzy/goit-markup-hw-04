@@ -320,18 +320,49 @@ background-color: #404BBF;
   background-color: #2e2f42; 
   padding: 100px 0;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-info {
+  margin-right: 120px;
+  max-width: 264px; 
+}
+
 .nav-logo-footer{
   display: inline-block; 
   margin-bottom: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
 }
+
 .nav-logo-span-footer {
   color: #f4f4fd;
 }
-.footer-p{
+
+.footer-text {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  color: #F4F4FD; 
   letter-spacing: 0.02em;
-  max-width: 264px;
+  color: var(--color-white, #ffffff);
+  margin-bottom: 0;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white, #ffffff);
+  margin-bottom: 16px;
 }
 /* #endregion */
 
