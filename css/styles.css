@@ -213,6 +213,7 @@ background-color: #404BBF;
 }
 .section-team-ul {
   display: flex;
+  gap: 24px; 
 }
 
 .section-team-li:hover {
