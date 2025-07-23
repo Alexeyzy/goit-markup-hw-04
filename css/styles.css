@@ -143,6 +143,7 @@ background-color: #404BBF;
   border: none;
   border-radius: 4px;
   margin:0 auto;
+  transition: background-color 250ms ease-in-out;
 }
 .button-main:hover,
 .button-main:focus{
@@ -190,7 +191,15 @@ background-color: #404BBF;
 .section-team-li{
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 300ms ease-in-out, box-shadow 300ms ease-in-out;
 }
+
+.section-team-li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 .section-team-name{
   padding: 32px 0;
 }
@@ -220,16 +229,19 @@ background-color: #404BBF;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 10px 0 0 0;
+  /* padding: 10px 0 0 0; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms ease-in-out;
 }
-.social-icons{
-  fill: gold;
+.social-icons {
+  fill: #f4f4fd;
 }
 .social-link:hover,
-.social-link:focus{
-  fill: red;
+.social-link:focus {
+  background-color: #404bbf;
 }
 
 /* #endregion */
@@ -246,6 +258,19 @@ background-color: #404BBF;
 }
 .section-portfolio-li{
   width: calc((100% - 2 * 24px) / 3);
+  overflow: hidden;
+  border-radius: 4px;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+.section-portfolio-li:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 20px rgba(46, 47, 66, 0.1);
+}
+.section-portfolio-li img {
+  transition: transform 250ms ease-in-out;
+}
+.section-portfolio-li:hover img {
+  transform: scale(1.05);
 }
 .section-portfolio-name{
   padding: 32px 16px;
