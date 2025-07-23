@@ -379,6 +379,9 @@ background-color: #404BBF;
   color: var(--color-white, #ffffff);
   margin-bottom: 0;
 }
+.footer-social-icon{
+  fill:#f4f4fd; 
+}
 .footer-social {
   display: flex;
   flex-direction: column;
@@ -397,9 +400,6 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   color: var(--color-white, #ffffff);
   margin-bottom: 16px;
-}
-.footer-social-icon{
-  fill:#f4f4fd; 
 }
 /* #endregion */
 
