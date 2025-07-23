@@ -187,6 +187,18 @@ background-color: #404BBF;
 .section-chose-title{
   margin-bottom: 8px;
 }
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 100%;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 /* #endregion */
 
 /* #region 3 section-team */
