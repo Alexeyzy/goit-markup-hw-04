@@ -101,6 +101,9 @@ body {
   position: relative;
 
 }
+.nav-item-active {
+  color: #2e2f42;
+}
 .nav-item.current {
   color: #404bbf;
 }
@@ -117,9 +120,7 @@ border-radius: 2px;
 background-color: #404BBF;
 }
 
-.nav-item-active {
-  color: #2e2f42;
-}
+
 .nav-item:hover,
 .nav-item:focus,
 .nav-address-item:hover,
